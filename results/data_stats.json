@@ -1,0 +1,31 @@
+{
+  "dataset": "PolyAI/banking77",
+  "hf_revision": "90d4e2ee5521c04fc1488f065b8b083658768c57",
+  "source_urls": {
+    "train": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/9d081458ff52e53cf7e848f414e6e9344e4e6696/banking_data/train.csv",
+    "test": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/9d081458ff52e53cf7e848f414e6e9344e4e6696/banking_data/test.csv"
+  },
+  "n_train": 10003,
+  "n_test": 3080,
+  "n_intents": 77,
+  "n_intents_in_train": 77,
+  "n_intents_in_test": 77,
+  "train_per_intent": {
+    "min": 35,
+    "min_intents": [
+      "contactless_not_working"
+    ],
+    "max": 187,
+    "max_intents": [
+      "card_payment_fee_charged"
+    ],
+    "mean": 129.9090909090909,
+    "median": 127.0
+  },
+  "test_per_intent": {
+    "min": 40,
+    "max": 40
+  },
+  "n_duplicate_texts_within_train": 0,
+  "n_test_texts_also_in_train": 0
+}

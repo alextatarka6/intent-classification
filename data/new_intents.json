@@ -1,0 +1,12 @@
+{
+  "seed": 2025,
+  "new_intents": [
+    "direct_debit_payment_not_recognised",
+    "exchange_charge",
+    "pin_blocked",
+    "topping_up_by_card",
+    "verify_top_up",
+    "virtual_card_not_working",
+    "why_verify_identity"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "method": "zeroshot_sbert_nearest_label",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "sentence_transformers_version": "6.1.0",
+  "similarity": "cosine",
+  "device": "cpu",
+  "label_phrase_examples": [
+    "activate my card",
+    "age limit",
+    "apple pay or google pay",
+    "atm support",
+    "automatic top up"
+  ],
+  "accuracy": 0.6224025974025974,
+  "macro_f1": 0.6119078771235897,
+  "n_test": 3080
+}

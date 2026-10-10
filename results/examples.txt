@@ -1,0 +1,16 @@
+=== 5 random training rows ===
+[beneficiary_not_allowed] How can I transfer money to a beneficiary?
+[pending_cash_withdrawal] How is my ATM deposit not available yet?
+[card_payment_not_recognised] There is a vendor name I don't recognize on a payment from my account. I don't think I made this payment.
+[compromised_card] My statement shows charges for things I never purchased. Were my account details stolen?
+[beneficiary_not_allowed] Hi, I am interested buying crypto currency but unable to purchase it through the application. I do want to do the exchange, Could you please let me know what is the problem?
+
+=== 3 examples: card_arrival ===
+- How do I track the card you sent me?
+- I was expecting my new card by now.
+- Can I track the card you sent to me?
+
+=== 3 examples: card_delivery_estimate ===
+- How long will this take to get to me?
+- Can cards be dispatched on a specific date?
+- Can I have it delivered on a specific date?

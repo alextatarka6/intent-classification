@@ -1,0 +1,78 @@
+text,label,label_name
+what are the steps to activate my card?,0,activate_my_card
+Could my daughter open an account?,1,age_limit
+Top up is not working even though I have my AMEX in apple pay.,2,apple_pay_or_google_pay
+How far is the closest ATM from me?,3,atm_support
+Where can I find the auto-top up feature?,4,automatic_top_up
+How long does it typically take to make a transfer from a UK bank? I just made one and it hasn't shown up in my account yet.,5,balance_not_updated_after_bank_transfer
+"I made a deposit a couple of days back it's, as of yet, not gone in! It would be ideal if you assist me with this",6,balance_not_updated_after_cheque_or_cash_deposit
+What is the reason for my beneficiary to be disallowed?,7,beneficiary_not_allowed
+I would like help to revert a transaction I did this morning,8,cancel_transfer
+"If I order a new card, how much will it be and how long will it take me to get it?",9,card_about_to_expire
+You accepts my card?,10,card_acceptance
+I need to find out where the card is that I ordered.,11,card_arrival
+Do I have a say when it's delivered?,12,card_delivery_estimate
+"I have one of your cards, but I don't know how to link it.",13,card_linking
+I cannot seem to use my card.,14,card_not_working
+how do i avoid charges in the future,15,card_payment_fee_charged
+There is payment showing that I didn't do.,16,card_payment_not_recognised
+What do i do if the exchange rate was wrong for the item i bought overseas?,17,card_payment_wrong_exchange_rate
+An ATM swallowed my credit card!,18,card_swallowed
+Why did they take more money out then I withdrawed?,19,cash_withdrawal_charge
+"Hi, It's urgent, please freeze my card. As someone has withdrawn money using my card in odd remote town. Since i have not done this withdrawal. Do it fast.",20,cash_withdrawal_not_recognised
+In what way can I change my PIN and where do I need to be?,21,change_pin
+I suspect someone used my card.,22,compromised_card
+My contactless is non-functional.,23,contactless_not_working
+Which countries are represented?,24,country_support
+What are the reasons why a card payment would be declined?,25,declined_card_payment
+Why was I declined from getting cash?,26,declined_cash_withdrawal
+Transfer declined.,27,declined_transfer
+Why am I seeing a direct debit thats not mine?,28,direct_debit_payment_not_recognised
+How many transactions can I do with my disposable card?,29,disposable_card_limits
+How can I change my address?,30,edit_personal_details
+How much does currency exchange cost?,31,exchange_charge
+Can you explain your exchange rates basis?,32,exchange_rate
+I need Australian dollars instead of UK currency.,33,exchange_via_app
+Is there a reason there's an extra fee on my statement?,34,extra_charge_on_statement
+Can you tell me why I wasn't able to complete my transfer?,35,failed_transfer
+I need a list of currencies you accept for exchange.,36,fiat_currency_support
+Please can i get a disposable virtual card as well?,37,get_disposable_virtual_card
+Where is my pin? I don't have it yet,38,get_physical_card
+How do I obtain a second card?,39,getting_spare_card
+"how many virtual cards can i have, i want 8",40,getting_virtual_card
+Can you send me a new card and block my current one. I'm in Spain and my wallet was stolen.,41,lost_or_stolen_card
+Help!  I think my phone may be stolen or lost!,42,lost_or_stolen_phone
+How do I order my card?,43,order_physical_card
+Help!  I forgot my password.,44,passcode_forgotten
+"I did a payment with my card but seem that didn't work, it's still listed as pending since a while ago. When does this actually go through?",45,pending_card_payment
+I tried to get some money but the machine was not working .The transaction still seems in progress! Can you please check what's going on.I don't want to be charged for money that I did not received.,46,pending_cash_withdrawal
+Can you tell me why my pop-up is still pending?,47,pending_top_up
+why have I got a pending transfer? I'm confused!!,48,pending_transfer
+How many incorrect attempts cause card to be blocked?,49,pin_blocked
+I use GBP for my salary deposits. Must I set this up somewhere?,50,receiving_money
+I contacted the seller for a direct refund last week but he still hasn't give me my money. What should I do?,51,Refund_not_showing_up
+Hello I changed my mind and want a refund on one of things I bought recently. Can you please cancel the transaction and get me my money back. Please it's urgent.,52,request_refund
+What reasons would cause my card payment to be cancelled?,53,reverted_card_payment?
+What are the currencies that are accepted to add money?,54,supported_cards_and_currencies
+Please delete my account and personal information.,55,terminate_account
+Will I be fined for topping up by transfer?,56,top_up_by_bank_transfer_charge
+Do you charge if I use a European bank card for top up?,57,top_up_by_card_charge
+Am I able to top up with this cheque I received?,58,top_up_by_cash_or_cheque
+Can you find out why my credit card didn't process payment? It was declined for top up so what's the deal?,59,top_up_failed
+Are there any top-up limits involved?,60,top_up_limits
+Has my top-up gone through?,61,top_up_reverted
+Can anyone else top-up for me?,62,topping_up_by_card
+I have been double charged,63,transaction_charged_twice
+I shouldn't be charged any fee for transferring .,64,transfer_fee_charged
+How can I transfer money to this account from another bank?,65,transfer_into_account
+I need to check status as my friend hasn't got money I sent.,66,transfer_not_received_by_recipient
+How long do I have to wait for a US transfer?,67,transfer_timing
+What am i missing to verify my id?,68,unable_to_verify_identity
+How do i change my identity?,69,verify_my_identity
+Please explain to me how to know where my funds are from.,70,verify_source_of_funds
+is there a reason i need to verify top up,71,verify_top_up
+I can't seem to get my virtual card to work.,72,virtual_card_not_working
+I would prefer a Mastercard.,73,visa_or_mastercard
+I am not comfortable verifying my indentity.,74,why_verify_identity
+Why did I only get $20 when I asked for $100?,75,wrong_amount_of_cash_received
+I think when I withdrew money when out of country the exchange rate was wrong.,76,wrong_exchange_rate_for_cash_withdrawal

@@ -1,0 +1,504 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ks": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "new_intents": [
+    "direct_debit_payment_not_recognised",
+    "exchange_charge",
+    "pin_blocked",
+    "topping_up_by_card",
+    "verify_top_up",
+    "virtual_card_not_working",
+    "why_verify_identity"
+  ],
+  "files": [
+    {
+      "path": "splits/standard/seed0_k1.csv",
+      "type": "standard",
+      "seed": 0,
+      "k": 1,
+      "n_rows": 77
+    },
+    {
+      "path": "splits/new_intent/seed0_k1.csv",
+      "type": "new_intent",
+      "seed": 0,
+      "k": 1,
+      "n_rows": 9201,
+      "n_old_rows": 9194,
+      "n_new_rows": 7
+    },
+    {
+      "path": "splits/standard/seed0_k5.csv",
+      "type": "standard",
+      "seed": 0,
+      "k": 5,
+      "n_rows": 385
+    },
+    {
+      "path": "splits/new_intent/seed0_k5.csv",
+      "type": "new_intent",
+      "seed": 0,
+      "k": 5,
+      "n_rows": 9229,
+      "n_old_rows": 9194,
+      "n_new_rows": 35
+    },
+    {
+      "path": "splits/standard/seed0_k10.csv",
+      "type": "standard",
+      "seed": 0,
+      "k": 10,
+      "n_rows": 770
+    },
+    {
+      "path": "splits/new_intent/seed0_k10.csv",
+      "type": "new_intent",
+      "seed": 0,
+      "k": 10,
+      "n_rows": 9264,
+      "n_old_rows": 9194,
+      "n_new_rows": 70
+    },
+    {
+      "path": "splits/standard/seed0_k20.csv",
+      "type": "standard",
+      "seed": 0,
+      "k": 20,
+      "n_rows": 1540
+    },
+    {
+      "path": "splits/new_intent/seed0_k20.csv",
+      "type": "new_intent",
+      "seed": 0,
+      "k": 20,
+      "n_rows": 9334,
+      "n_old_rows": 9194,
+      "n_new_rows": 140
+    },
+    {
+      "path": "splits/standard/seed0_k50.csv",
+      "type": "standard",
+      "seed": 0,
+      "k": 50,
+      "n_rows": 3826
+    },
+    {
+      "path": "splits/new_intent/seed0_k50.csv",
+      "type": "new_intent",
+      "seed": 0,
+      "k": 50,
+      "n_rows": 9535,
+      "n_old_rows": 9194,
+      "n_new_rows": 341
+    },
+    {
+      "path": "splits/standard/seed1_k1.csv",
+      "type": "standard",
+      "seed": 1,
+      "k": 1,
+      "n_rows": 77
+    },
+    {
+      "path": "splits/new_intent/seed1_k1.csv",
+      "type": "new_intent",
+      "seed": 1,
+      "k": 1,
+      "n_rows": 9201,
+      "n_old_rows": 9194,
+      "n_new_rows": 7
+    },
+    {
+      "path": "splits/standard/seed1_k5.csv",
+      "type": "standard",
+      "seed": 1,
+      "k": 5,
+      "n_rows": 385
+    },
+    {
+      "path": "splits/new_intent/seed1_k5.csv",
+      "type": "new_intent",
+      "seed": 1,
+      "k": 5,
+      "n_rows": 9229,
+      "n_old_rows": 9194,
+      "n_new_rows": 35
+    },
+    {
+      "path": "splits/standard/seed1_k10.csv",
+      "type": "standard",
+      "seed": 1,
+      "k": 10,
+      "n_rows": 770
+    },
+    {
+      "path": "splits/new_intent/seed1_k10.csv",
+      "type": "new_intent",
+      "seed": 1,
+      "k": 10,
+      "n_rows": 9264,
+      "n_old_rows": 9194,
+      "n_new_rows": 70
+    },
+    {
+      "path": "splits/standard/seed1_k20.csv",
+      "type": "standard",
+      "seed": 1,
+      "k": 20,
+      "n_rows": 1540
+    },
+    {
+      "path": "splits/new_intent/seed1_k20.csv",
+      "type": "new_intent",
+      "seed": 1,
+      "k": 20,
+      "n_rows": 9334,
+      "n_old_rows": 9194,
+      "n_new_rows": 140
+    },
+    {
+      "path": "splits/standard/seed1_k50.csv",
+      "type": "standard",
+      "seed": 1,
+      "k": 50,
+      "n_rows": 3826
+    },
+    {
+      "path": "splits/new_intent/seed1_k50.csv",
+      "type": "new_intent",
+      "seed": 1,
+      "k": 50,
+      "n_rows": 9535,
+      "n_old_rows": 9194,
+      "n_new_rows": 341
+    },
+    {
+      "path": "splits/standard/seed2_k1.csv",
+      "type": "standard",
+      "seed": 2,
+      "k": 1,
+      "n_rows": 77
+    },
+    {
+      "path": "splits/new_intent/seed2_k1.csv",
+      "type": "new_intent",
+      "seed": 2,
+      "k": 1,
+      "n_rows": 9201,
+      "n_old_rows": 9194,
+      "n_new_rows": 7
+    },
+    {
+      "path": "splits/standard/seed2_k5.csv",
+      "type": "standard",
+      "seed": 2,
+      "k": 5,
+      "n_rows": 385
+    },
+    {
+      "path": "splits/new_intent/seed2_k5.csv",
+      "type": "new_intent",
+      "seed": 2,
+      "k": 5,
+      "n_rows": 9229,
+      "n_old_rows": 9194,
+      "n_new_rows": 35
+    },
+    {
+      "path": "splits/standard/seed2_k10.csv",
+      "type": "standard",
+      "seed": 2,
+      "k": 10,
+      "n_rows": 770
+    },
+    {
+      "path": "splits/new_intent/seed2_k10.csv",
+      "type": "new_intent",
+      "seed": 2,
+      "k": 10,
+      "n_rows": 9264,
+      "n_old_rows": 9194,
+      "n_new_rows": 70
+    },
+    {
+      "path": "splits/standard/seed2_k20.csv",
+      "type": "standard",
+      "seed": 2,
+      "k": 20,
+      "n_rows": 1540
+    },
+    {
+      "path": "splits/new_intent/seed2_k20.csv",
+      "type": "new_intent",
+      "seed": 2,
+      "k": 20,
+      "n_rows": 9334,
+      "n_old_rows": 9194,
+      "n_new_rows": 140
+    },
+    {
+      "path": "splits/standard/seed2_k50.csv",
+      "type": "standard",
+      "seed": 2,
+      "k": 50,
+      "n_rows": 3826
+    },
+    {
+      "path": "splits/new_intent/seed2_k50.csv",
+      "type": "new_intent",
+      "seed": 2,
+      "k": 50,
+      "n_rows": 9535,
+      "n_old_rows": 9194,
+      "n_new_rows": 341
+    },
+    {
+      "path": "splits/standard/seed3_k1.csv",
+      "type": "standard",
+      "seed": 3,
+      "k": 1,
+      "n_rows": 77
+    },
+    {
+      "path": "splits/new_intent/seed3_k1.csv",
+      "type": "new_intent",
+      "seed": 3,
+      "k": 1,
+      "n_rows": 9201,
+      "n_old_rows": 9194,
+      "n_new_rows": 7
+    },
+    {
+      "path": "splits/standard/seed3_k5.csv",
+      "type": "standard",
+      "seed": 3,
+      "k": 5,
+      "n_rows": 385
+    },
+    {
+      "path": "splits/new_intent/seed3_k5.csv",
+      "type": "new_intent",
+      "seed": 3,
+      "k": 5,
+      "n_rows": 9229,
+      "n_old_rows": 9194,
+      "n_new_rows": 35
+    },
+    {
+      "path": "splits/standard/seed3_k10.csv",
+      "type": "standard",
+      "seed": 3,
+      "k": 10,
+      "n_rows": 770
+    },
+    {
+      "path": "splits/new_intent/seed3_k10.csv",
+      "type": "new_intent",
+      "seed": 3,
+      "k": 10,
+      "n_rows": 9264,
+      "n_old_rows": 9194,
+      "n_new_rows": 70
+    },
+    {
+      "path": "splits/standard/seed3_k20.csv",
+      "type": "standard",
+      "seed": 3,
+      "k": 20,
+      "n_rows": 1540
+    },
+    {
+      "path": "splits/new_intent/seed3_k20.csv",
+      "type": "new_intent",
+      "seed": 3,
+      "k": 20,
+      "n_rows": 9334,
+      "n_old_rows": 9194,
+      "n_new_rows": 140
+    },
+    {
+      "path": "splits/standard/seed3_k50.csv",
+      "type": "standard",
+      "seed": 3,
+      "k": 50,
+      "n_rows": 3826
+    },
+    {
+      "path": "splits/new_intent/seed3_k50.csv",
+      "type": "new_intent",
+      "seed": 3,
+      "k": 50,
+      "n_rows": 9535,
+      "n_old_rows": 9194,
+      "n_new_rows": 341
+    },
+    {
+      "path": "splits/standard/seed4_k1.csv",
+      "type": "standard",
+      "seed": 4,
+      "k": 1,
+      "n_rows": 77
+    },
+    {
+      "path": "splits/new_intent/seed4_k1.csv",
+      "type": "new_intent",
+      "seed": 4,
+      "k": 1,
+      "n_rows": 9201,
+      "n_old_rows": 9194,
+      "n_new_rows": 7
+    },
+    {
+      "path": "splits/standard/seed4_k5.csv",
+      "type": "standard",
+      "seed": 4,
+      "k": 5,
+      "n_rows": 385
+    },
+    {
+      "path": "splits/new_intent/seed4_k5.csv",
+      "type": "new_intent",
+      "seed": 4,
+      "k": 5,
+      "n_rows": 9229,
+      "n_old_rows": 9194,
+      "n_new_rows": 35
+    },
+    {
+      "path": "splits/standard/seed4_k10.csv",
+      "type": "standard",
+      "seed": 4,
+      "k": 10,
+      "n_rows": 770
+    },
+    {
+      "path": "splits/new_intent/seed4_k10.csv",
+      "type": "new_intent",
+      "seed": 4,
+      "k": 10,
+      "n_rows": 9264,
+      "n_old_rows": 9194,
+      "n_new_rows": 70
+    },
+    {
+      "path": "splits/standard/seed4_k20.csv",
+      "type": "standard",
+      "seed": 4,
+      "k": 20,
+      "n_rows": 1540
+    },
+    {
+      "path": "splits/new_intent/seed4_k20.csv",
+      "type": "new_intent",
+      "seed": 4,
+      "k": 20,
+      "n_rows": 9334,
+      "n_old_rows": 9194,
+      "n_new_rows": 140
+    },
+    {
+      "path": "splits/standard/seed4_k50.csv",
+      "type": "standard",
+      "seed": 4,
+      "k": 50,
+      "n_rows": 3826
+    },
+    {
+      "path": "splits/new_intent/seed4_k50.csv",
+      "type": "new_intent",
+      "seed": 4,
+      "k": 50,
+      "n_rows": 9535,
+      "n_old_rows": 9194,
+      "n_new_rows": 341
+    },
+    {
+      "path": "splits/test/test_all.csv",
+      "type": "test",
+      "n_rows": 3080
+    },
+    {
+      "path": "splits/test/test_old.csv",
+      "type": "test",
+      "n_rows": 2800
+    },
+    {
+      "path": "splits/test/test_new.csv",
+      "type": "test",
+      "n_rows": 280
+    }
+  ],
+  "capped": [
+    {
+      "seed": 0,
+      "k": 50,
+      "intent": "contactless_not_working",
+      "available": 35
+    },
+    {
+      "seed": 0,
+      "k": 50,
+      "intent": "virtual_card_not_working",
+      "available": 41
+    },
+    {
+      "seed": 1,
+      "k": 50,
+      "intent": "contactless_not_working",
+      "available": 35
+    },
+    {
+      "seed": 1,
+      "k": 50,
+      "intent": "virtual_card_not_working",
+      "available": 41
+    },
+    {
+      "seed": 2,
+      "k": 50,
+      "intent": "contactless_not_working",
+      "available": 35
+    },
+    {
+      "seed": 2,
+      "k": 50,
+      "intent": "virtual_card_not_working",
+      "available": 41
+    },
+    {
+      "seed": 3,
+      "k": 50,
+      "intent": "contactless_not_working",
+      "available": 35
+    },
+    {
+      "seed": 3,
+      "k": 50,
+      "intent": "virtual_card_not_working",
+      "available": 41
+    },
+    {
+      "seed": 4,
+      "k": 50,
+      "intent": "contactless_not_working",
+      "available": 35
+    },
+    {
+      "seed": 4,
+      "k": 50,
+      "intent": "virtual_card_not_working",
+      "available": 41
+    }
+  ]
+}

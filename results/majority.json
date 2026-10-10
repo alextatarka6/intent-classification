@@ -1,0 +1,10 @@
+{
+  "method": "majority_class",
+  "train_split": "full train",
+  "predicted_label": 15,
+  "predicted_intent": "card_payment_fee_charged",
+  "train_count": 187,
+  "accuracy": 0.012987012987012988,
+  "macro_f1": 0.000333000333000333,
+  "n_test": 3080
+}

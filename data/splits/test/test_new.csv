@@ -1,0 +1,282 @@
+text,label,label_name
+How do I get my PIN unlocked?,49,pin_blocked
+Where can I view my PIN?,49,pin_blocked
+Will you reinstate my PIN?,49,pin_blocked
+I accidentally blocked my PIN. How do I reset it?,49,pin_blocked
+How do I unblock my pin after entering it wrong too many times?,49,pin_blocked
+I used the wrong ping too many times and now the account is blocked.  How do I unblock?,49,pin_blocked
+I need help because I drunken blocked my card?,49,pin_blocked
+"How do I reset my PIN, I can't seem to use my card?",49,pin_blocked
+"When I put the wrong pin too much, I got blocked, so can you help me unblock my pin",49,pin_blocked
+"My pin was blocked, how do I make it so I can use it?",49,pin_blocked
+How many tries do I have to enter my pin before I'm blocked?,49,pin_blocked
+What should I do if I've tried to enter my PIN too often?,49,pin_blocked
+I have exceeded the number of times I can try my PIN,49,pin_blocked
+How can I unblock a blocked pin number for my account?,49,pin_blocked
+What do I do if the bank machine won't accept my PIN attempts anymore?,49,pin_blocked
+Can you unlock my pin? I think I entered the wrong pin too many times.,49,pin_blocked
+How do I deal with a blocked PIN?,49,pin_blocked
+"I attempted to use my card while I was intoxicated, and I failed to input my PIN, and the machine kept my card. How soon can I have it back?",49,pin_blocked
+Can I unblock my card using the app?,49,pin_blocked
+I'v exhausted all the of times I can try my PIN,49,pin_blocked
+How can I unlock my pin from too many tries?,49,pin_blocked
+Help! I forgot my PIN and have been locked out of using my card.,49,pin_blocked
+"My account is blocked, how do I log in now",49,pin_blocked
+Why did I get blocked?,49,pin_blocked
+Are you able to unblock my pin?,49,pin_blocked
+Can you assist me with unblocking my PIN? I put it in wrong too many times.,49,pin_blocked
+I entered the wrong pin too many times and now I am blocked.  Help me unblock!,49,pin_blocked
+"My pins seems to be blocked, can you unblock it please",49,pin_blocked
+Can you unblock my pin after too many wrong pin attempts?,49,pin_blocked
+What can you do to unblock my pin?,49,pin_blocked
+"My PIN is blocked, what do I do?",49,pin_blocked
+Can I reactivate my PIN?,49,pin_blocked
+How do I reset my PIN?,49,pin_blocked
+Can I unblock my pin?,49,pin_blocked
+How do I unblock my PIN?,49,pin_blocked
+"My card's frozen, what can I do?",49,pin_blocked
+How can I unlock the pin?,49,pin_blocked
+"Since my pin is blocked, would you help me unblock it?",49,pin_blocked
+My PIN is not working and I need assistance.,49,pin_blocked
+"
+Where can I get my PIN unblocked?",49,pin_blocked
+Why do you require so many details about my identity?,74,why_verify_identity
+I'd rather not verify my identity.,74,why_verify_identity
+do I need to verify my identity every time I log into my account?,74,why_verify_identity
+Why am I required to verify my identity?,74,why_verify_identity
+Can I make transfers before identity verification?,74,why_verify_identity
+What is the need to verify my identity?,74,why_verify_identity
+Do I have to do the identity check?,74,why_verify_identity
+Can I use my account without verifying my identity?,74,why_verify_identity
+Why is identity verification mandatory?,74,why_verify_identity
+Do I have to do an identity check?,74,why_verify_identity
+I would like to not have to do the identity verification.,74,why_verify_identity
+"Can I still use my account, even though the identity verification has not passed yet?",74,why_verify_identity
+Why do you require all my identity details?,74,why_verify_identity
+Why do you need so much information to verify my identity?,74,why_verify_identity
+What is the purpose for the identity check,74,why_verify_identity
+I don't like that I have to fill out so much information about my identity.,74,why_verify_identity
+What is the point of an identity check?,74,why_verify_identity
+How come you need to know my identity?,74,why_verify_identity
+"May I use my account now, even though the identity verification has not gone through yet?",74,why_verify_identity
+Do I need to verify my identity to use my account?,74,why_verify_identity
+Why am I required to do an identity check?,74,why_verify_identity
+Why am I being asked to have an identity check,74,why_verify_identity
+Can i make transactions before identity verification is complete?,74,why_verify_identity
+Do I really need to verify my identity?,74,why_verify_identity
+Why do I have to give you all of my identification details?,74,why_verify_identity
+Why do you require so many identity details?,74,why_verify_identity
+"Since my id hasn't been verified, when can I use my account?",74,why_verify_identity
+I won't verify my identity.,74,why_verify_identity
+I want to skip verification of my identity.,74,why_verify_identity
+I do not wish to verify my identity.,74,why_verify_identity
+Why do I have to verify my identity?,74,why_verify_identity
+what is the identity check?,74,why_verify_identity
+What other methods are there to verify my identity?,74,why_verify_identity
+Do I need to verify my identity?,74,why_verify_identity
+Do I need to verify my identity each time I wish to use my account?,74,why_verify_identity
+Can I use my account if the identity verification is not complete?,74,why_verify_identity
+Why is it asking me to verify my identity,74,why_verify_identity
+Do I have to verify my identity?,74,why_verify_identity
+Why do you need to know so much about me,74,why_verify_identity
+Why did I need to verfiy my identity?,74,why_verify_identity
+How can I top up my account with a card?,62,topping_up_by_card
+WHERE IS MY MONEY I WAS USING MY CARD AND IT DISAPPEARED,62,topping_up_by_card
+How can I top up by card?,62,topping_up_by_card
+What is the process for using my credit card to transfer money?,62,topping_up_by_card
+How do I top up my card using your app? I'm new to this.,62,topping_up_by_card
+Can friends add to my account,62,topping_up_by_card
+Can I top up using my car?,62,topping_up_by_card
+Why can't I see my topup in my wallet anymore?,62,topping_up_by_card
+Use credit card to transfer money,62,topping_up_by_card
+How do my friends top up my account,62,topping_up_by_card
+"I followed the instructions to transfer money using my card, but then the money disappeared and I don't know what happened.",62,topping_up_by_card
+Where's the money that got charged to my card? It's not showing up in my account balance,62,topping_up_by_card
+how can i top up?,62,topping_up_by_card
+"I am missing some funds from my account - I tried to transfer them using my credit card number, and it disappeared.",62,topping_up_by_card
+I have friends that would like to top-up my account is that possible?,62,topping_up_by_card
+How do I transfer money using a credit card?,62,topping_up_by_card
+Can I give my friends access to my account so they can top it up for me?,62,topping_up_by_card
+"I did a top-up, but I'm not seeing it in my wallet yet.",62,topping_up_by_card
+"i know i entered the right info, but my top up isn't in my balance",62,topping_up_by_card
+Will my friend be able to top off my account?,62,topping_up_by_card
+Is there a way to transfer funds directly from my card?,62,topping_up_by_card
+Why isn't my top up showing on my wallet?,62,topping_up_by_card
+"I tried to top up using my card, but now the money just disappeared!",62,topping_up_by_card
+Help me transfer money to my credit card.,62,topping_up_by_card
+I tried to use my card to top up but all of the money has disappeared.,62,topping_up_by_card
+Is it possible to use my credit card to transfer money?,62,topping_up_by_card
+How can someone add money to my account?,62,topping_up_by_card
+Cannot access my top up.,62,topping_up_by_card
+Are my friends able to add funds to my account?,62,topping_up_by_card
+Can I transfer money to my credit card?,62,topping_up_by_card
+Who else can top up my account,62,topping_up_by_card
+Why is my money gone right when I attempted to top up,62,topping_up_by_card
+How do i transfer money using my credit card?,62,topping_up_by_card
+My friends want to top up my account,62,topping_up_by_card
+Who can top up my accounts?,62,topping_up_by_card
+show me how to top up with my card,62,topping_up_by_card
+I topped up my card but the money disappeared.,62,topping_up_by_card
+Why don't I see my top up in my wallet?,62,topping_up_by_card
+Why can't I see the top-up amount I just added to my account?,62,topping_up_by_card
+Are my friends able to top up my account?,62,topping_up_by_card
+Help me.  There is a Direct Debit that I didn't make.,28,direct_debit_payment_not_recognised
+There is a direct debit that's not mine.,28,direct_debit_payment_not_recognised
+I have a strange direct debit in my statement,28,direct_debit_payment_not_recognised
+I don't understand where this debit came from and want it removed.,28,direct_debit_payment_not_recognised
+what is this charge on my account,28,direct_debit_payment_not_recognised
+"im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.",28,direct_debit_payment_not_recognised
+someone stole my money,28,direct_debit_payment_not_recognised
+There's a Direct Debit payment in my account that I didn't make,28,direct_debit_payment_not_recognised
+There's a debit on my account that I didn't do.,28,direct_debit_payment_not_recognised
+I may have a fraud charge on my debit statement.,28,direct_debit_payment_not_recognised
+Why is there a direct debit payment on my app that is not from me?,28,direct_debit_payment_not_recognised
+Weird charges are appearing in my debit account.,28,direct_debit_payment_not_recognised
+"Even though it's late, I wanted to see about disputing a charge. I was just looking through my transactions over the past couple of months and noticed a pretty large amount that was not completed by me. Is this possibly something I can still do.",28,direct_debit_payment_not_recognised
+"There was a transaction from two weeks ago from a business that I don't know. I'm fairly certain it wasn't me who made it, but is it an option to trace it to confirm?",28,direct_debit_payment_not_recognised
+What is this direct debit I am seeing?,28,direct_debit_payment_not_recognised
+There is a Direct Debit that I don't recognize.,28,direct_debit_payment_not_recognised
+Unknown direct deposit,28,direct_debit_payment_not_recognised
+There is a suspicious direct debit payment.,28,direct_debit_payment_not_recognised
+There is a transaction from my account that I don't recognize can you trace back the information so I can make sure it's something I did or not?,28,direct_debit_payment_not_recognised
+"A couple weeks ago some money was deducted from my account by some seller that I don't remember. I'm pretty sure I didn't do that, but is it possible to trace back who that is just to make sure?",28,direct_debit_payment_not_recognised
+I found a charge for a direct debit that was not made by me.,28,direct_debit_payment_not_recognised
+"I am seeing a weird payment showing up that I know I did not make, how can I get it cancelled?",28,direct_debit_payment_not_recognised
+This Direct Debit payment may not be right.,28,direct_debit_payment_not_recognised
+why does the app show a direct debit payment that I did not authorize,28,direct_debit_payment_not_recognised
+Can I dispute a payment even if I notice it several weeks after it was made?,28,direct_debit_payment_not_recognised
+It seems there is an incorrect listing of a direct debit payment on my app that I did not make,28,direct_debit_payment_not_recognised
+I don't think I made this charge on my debit statement.,28,direct_debit_payment_not_recognised
+I have a direct debit charge that I do not recognize,28,direct_debit_payment_not_recognised
+I didn't make this direct debit transaction,28,direct_debit_payment_not_recognised
+There's a direct debit on my account that I didn't authorize,28,direct_debit_payment_not_recognised
+I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,28,direct_debit_payment_not_recognised
+I don't recognize a debit payment that was made and would like to find out about the payment.,28,direct_debit_payment_not_recognised
+I am concerned about the security in my account and would like to make a dispute.,28,direct_debit_payment_not_recognised
+Why is there a direct debit I didn't make showing in the app?,28,direct_debit_payment_not_recognised
+There is a direct debit I do not recognise in my statement,28,direct_debit_payment_not_recognised
+"I have a direct debit transaction I have not set up, but would like to .",28,direct_debit_payment_not_recognised
+Someone has taken my money and I don't know who,28,direct_debit_payment_not_recognised
+I was charged on my account that shouldn't be there.,28,direct_debit_payment_not_recognised
+There's a direct debit I wish to dispute,28,direct_debit_payment_not_recognised
+Why was my account deducted from a seller when I didn't approve of it?,28,direct_debit_payment_not_recognised
+What all is needed to verify the top-up card?,71,verify_top_up
+It wants me to verify the top up. Why?,71,verify_top_up
+Where can I find the top-up verification code?,71,verify_top_up
+Why do I have to verify the top-up that I started?,71,verify_top_up
+Can you give me information about verification code?,71,verify_top_up
+What are the benefits to verifying the top-up?,71,verify_top_up
+how come the verification with the top up,71,verify_top_up
+Can I verify a top up?,71,verify_top_up
+reason i need to verify top up,71,verify_top_up
+Why do you need code verification for my top up?,71,verify_top_up
+Where can I find the verification code on a top-up card?,71,verify_top_up
+How do I get my top-up verification code?,71,verify_top_up
+Is it possible to verify a top up?,71,verify_top_up
+Is it normal to have to verify my top-up or is something wrong?,71,verify_top_up
+Why does the top-up need verification?,71,verify_top_up
+Why does top-up need verifying?,71,verify_top_up
+Is it necessary to verify my top up?,71,verify_top_up
+Why am i to verify the top-ups?,71,verify_top_up
+Where's the verification code for the top-up card?,71,verify_top_up
+How do I find the verification code for my top-up card?,71,verify_top_up
+Why is it important to verify a top-up card?,71,verify_top_up
+Why do I have to verify the top-up?,71,verify_top_up
+What is the verification code on a top-up?,71,verify_top_up
+I can't find the top-up verification code.,71,verify_top_up
+How do I go forth verifying my top-up card?,71,verify_top_up
+Where do I find the top-up verification code?,71,verify_top_up
+How is the top-up card verified?,71,verify_top_up
+Is there a verification code for the top-up card?,71,verify_top_up
+What is the importance of verifying the top-up?,71,verify_top_up
+help me find the top-up card's verification code?,71,verify_top_up
+I don't understand why it says I have to verify the top-up.,71,verify_top_up
+Can I verify a top-up and what card is used?,71,verify_top_up
+Where do I go to get the code to verify the top up card?,71,verify_top_up
+The top-up verification code is missing,71,verify_top_up
+How do I verify a top-up?,71,verify_top_up
+I cannot locate the verification code for my top-up card. Please help me.,71,verify_top_up
+How can I find the top-up verification code?,71,verify_top_up
+I need help finding the verification code for my top-up card.,71,verify_top_up
+Is there a verification code for top-ups?,71,verify_top_up
+What is the necessity of verifying the top up?,71,verify_top_up
+Why is my disposable virtual card being denied?,72,virtual_card_not_working
+My disposable virtual card doesn't seem to work,72,virtual_card_not_working
+My disposable virtual card is broken.,72,virtual_card_not_working
+My non-physical card will not work,72,virtual_card_not_working
+Why did the disposable virtual card which I used to pay a gym subscription get denied?,72,virtual_card_not_working
+Why is my virtual card is being declined?,72,virtual_card_not_working
+Are there restrictions for my disposable card since it does not seem to be working?,72,virtual_card_not_working
+I cannot get my virtual card to work.,72,virtual_card_not_working
+I was at the store earlier and my virtual card didn't work. What's the solution for this problem?,72,virtual_card_not_working
+My disposable virtual card will not work,72,virtual_card_not_working
+I cannot use my disposable virtual card.,72,virtual_card_not_working
+Can I make multiple online transactions with my virtual card?,72,virtual_card_not_working
+Why was my virtual card declined when attempting to setup automatic billing?,72,virtual_card_not_working
+Why doesn't my disposable virtual card work?,72,virtual_card_not_working
+Why can't I use my virtual card for subscription services?,72,virtual_card_not_working
+Why isn't my virtual card working?,72,virtual_card_not_working
+I cannot make transactions with my virtual card.,72,virtual_card_not_working
+"For some reason, the virtual card won't work for me.",72,virtual_card_not_working
+My disposable virtual card has been rejected by the merchant earlier today. What should I do?,72,virtual_card_not_working
+How can I fix a problem where my virtual card is rejected?,72,virtual_card_not_working
+My virtual card isn't working. What do I do?,72,virtual_card_not_working
+What do I do if my virtual card won't work.,72,virtual_card_not_working
+Is there a trick to get the disposable virtual card to work?,72,virtual_card_not_working
+Why can't I get my virtual card to work?,72,virtual_card_not_working
+My card is just not working at this time.,72,virtual_card_not_working
+My disposable card seems not to be working am I doing something wrong?,72,virtual_card_not_working
+My payments from my virtual card keep getting rejected.,72,virtual_card_not_working
+My disposable virtual card is not working when I try to use it at a point of sale transaction. What do I do now?,72,virtual_card_not_working
+My transaction was just declined when I was using my disposable virtual card. What can I do?,72,virtual_card_not_working
+My disposable virtual card is not working,72,virtual_card_not_working
+How do I get my disposable virtual card to work?,72,virtual_card_not_working
+How come my disposable virtual card used to pay for a gym subscription got rejected?,72,virtual_card_not_working
+Payments from my disposable virtual card don't work,72,virtual_card_not_working
+"My disposable virtual card was rejected by the merchant, please help?",72,virtual_card_not_working
+My virtual card won't work.,72,virtual_card_not_working
+Tell me why my virtual disposable card won't work.,72,virtual_card_not_working
+I need help getting the virtual card to work.,72,virtual_card_not_working
+I was trying to use my virtual card at a merchant and it was rejected. How can I fix this?,72,virtual_card_not_working
+How do I make my virtual card work?,72,virtual_card_not_working
+virtual card is not working for me,72,virtual_card_not_working
+Is there an exchange fee?,31,exchange_charge
+whats your exchange rate,31,exchange_charge
+What are your currency exchange fees?,31,exchange_charge
+Where do I find the exchange rate?,31,exchange_charge
+What is the base amount for cross-currency exchanges?,31,exchange_charge
+"My work sends me all over the world, can I get a discount for all the money I have to exchange?",31,exchange_charge
+How much more do I have to pay to exchange currencies?,31,exchange_charge
+Is there a fee for exchanging currencies?,31,exchange_charge
+How much does it cost to exchange currencies?,31,exchange_charge
+whats the exchange charge,31,exchange_charge
+Is there any discount for someone that exchanges currencies frequently?,31,exchange_charge
+Is there a fee to exchange foreign money?,31,exchange_charge
+Do I have to pay for exchanging currencies?,31,exchange_charge
+Does it cost extra to exchange currencies?,31,exchange_charge
+Is there a fee for exchanging foreign currencies?,31,exchange_charge
+Will I be charged a fee for exchanging foreign currencies?,31,exchange_charge
+"How much is a cross currency exchange, and can I check to see if I have any discounts available?",31,exchange_charge
+Do you offer a discount on multiple currency exchanges?,31,exchange_charge
+How much do I have to pay for the exchange fee?,31,exchange_charge
+"If I want to exchange currency, will there be extras?",31,exchange_charge
+If I need to exchange currency is there an extra fee?,31,exchange_charge
+I was wondering if there were any discounts offered for frequent currency exchanges?,31,exchange_charge
+Would I be charged for exchanging currencies?,31,exchange_charge
+What is the exchange fee?,31,exchange_charge
+Does it cost to exchange currencies with this card?,31,exchange_charge
+how much you charge for exhcange,31,exchange_charge
+Are there any extra hidden fees for exchanging currencies?,31,exchange_charge
+"When I travel, what will it cost to switch for my currency?",31,exchange_charge
+How much will I pay to exchange foreign currency?,31,exchange_charge
+Does it cost money for currency exchange services?,31,exchange_charge
+Are there extra charges for exchanging currency?,31,exchange_charge
+"I will need to exchange currencies frequently, will I be able to get a discount?",31,exchange_charge
+Is there a charge for a foreign currency exchange?,31,exchange_charge
+Is there a discount for frequently exchanging currencies?,31,exchange_charge
+What is the cost for an exchange fee?,31,exchange_charge
+Will it cost more money if my currency needs to be exchanged?,31,exchange_charge
+"I would like to exchange currencies, but is there an extra charge to do so?",31,exchange_charge
+Does it cost anything for exchanges?,31,exchange_charge
+Can I exchange money from abroad without additional costs?,31,exchange_charge
+does it cost to exchange currencies?,31,exchange_charge
