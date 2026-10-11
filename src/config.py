@@ -30,6 +30,21 @@ INSPECT_SEED = SEEDS[0]
 
 ZEROSHOT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
+# k-shot fine-tuning learning curve. There is no dev set in the few-shot regime, so these
+# are fixed up front and the final checkpoint is evaluated. Each run trains for
+# max(FT_EPOCHS epochs, FT_MIN_STEPS steps) so the tiny k=1 split still gets enough updates.
+FINETUNE_MODEL = "bert-base-uncased"
+FT_HPARAMS = {
+    "lr": 5e-5,
+    "batch_size": 16,
+    "epochs": 10,
+    "min_steps": 500,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "max_length": 128,  # longest Banking77 train utterance is 98 BERT tokens: no truncation
+    "eval_batch_size": 128,
+}
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"

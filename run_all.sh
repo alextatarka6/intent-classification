@@ -4,3 +4,4 @@ set -euo pipefail
 cd "$(dirname "$0")"
 .venv/bin/python src/prepare_data.py
 .venv/bin/python src/baselines.py
+.venv/bin/python src/finetune.py

@@ -1,0 +1,43 @@
+{
+  "method": "finetune",
+  "model": "bert-base-uncased",
+  "seed": 3,
+  "k": 10,
+  "train_file": "data/splits/standard/seed3_k10.csv",
+  "n_train": 770,
+  "test_file": "data/splits/test/test_all.csv",
+  "device": "mps",
+  "hparams": {
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 10,
+    "min_steps": 500,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "max_length": 128,
+    "eval_batch_size": 128
+  },
+  "torch_version": "2.14.1",
+  "transformers_version": "5.19.0",
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "epochs": 11,
+  "total_steps": 539,
+  "train_seconds": 51.4,
+  "final_train_loss": 1.286024227434275,
+  "epoch_train_losses": [
+    4.372519600148103,
+    4.196549838902999,
+    3.702758253837118,
+    3.124913162114669,
+    2.6407784685796623,
+    2.2088620395076517,
+    1.8891607741920315,
+    1.6513961796857872,
+    1.4739523931425444,
+    1.341071485256662,
+    1.286024227434275
+  ],
+  "accuracy": 0.7467532467532467,
+  "macro_f1": 0.7391744390291475,
+  "n_test": 3080
+}
