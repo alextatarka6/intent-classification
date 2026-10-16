@@ -1,7 +1,6 @@
-"""Single source of truth for seeds, k values and paths."""
+"""Seeds, k values, model names and paths shared by all scripts."""
 from pathlib import Path
 
-# Global seed list: every seeded step in the project iterates over this.
 SEEDS = [0, 1, 2, 3, 4]
 
 # Shots per intent for the k-shot splits.

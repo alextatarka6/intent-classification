@@ -1,6 +1,6 @@
-"""Steps 2-3: download Banking77, inspect it, and build the k-shot / new-intent splits.
+"""Download Banking77, print some stats, and build the k-shot / new-intent splits.
 
-Run from the repo root:  python src/prepare_data.py
+    python src/prepare_data.py
 """
 import csv
 import hashlib
@@ -79,7 +79,7 @@ def compute_stats(train, test, label_names):
             "min": int(test["label"].value_counts().min()),
             "max": int(test["label"].value_counts().max()),
         },
-        # Data-quality checks (reported only; the test set is never modified).
+        # Data-quality checks (reported only).
         "n_duplicate_texts_within_train": int(train["text"].duplicated().sum()),
         "n_test_texts_also_in_train": int(test["text"].isin(train_texts).sum()),
     }
@@ -166,7 +166,7 @@ def build_splits(train, test, label_names, new_intents):
                                       "seed": seed, "k": k, "n_rows": len(mixed),
                                       "n_old_rows": len(old_rows), "n_new_rows": len(new_idx)})
 
-    # Test subsets for the new-intent experiment (rows copied unchanged).
+    # Test subsets for the new-intent experiment.
     test_dir = SPLITS_DIR / "test"
     test_dir.mkdir(parents=True, exist_ok=True)
     subsets = {"test_all": test,

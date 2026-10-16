@@ -1,6 +1,6 @@
-"""Steps 4-5: majority-class and zero-shot SBERT baselines on the full test set.
+"""Majority-class and zero-shot SBERT baselines on the full test set.
 
-Run from the repo root after prepare_data.py:  python src/baselines.py
+    python src/baselines.py
 """
 import json
 from collections import Counter

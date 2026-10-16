@@ -1,12 +1,8 @@
-"""Step 6: k-shot fine-tuning learning curve on the standard splits, plus full-train fine-tuning.
+"""k-shot fine-tuning learning curve: BERT on each standard split and on the full train set.
 
-Fine-tunes FINETUNE_MODEL on every data/splits/standard/seed{s}_k{k}.csv and on the full train
-set (once per seed), evaluating each run on the full test set. Each run writes
-results/finetune/{run}.json and is skipped if that file exists, so an interrupted sweep resumes.
-results/finetune_curve.json aggregates mean/std per k, with the majority and zero-shot
-baselines alongside for context.
+Each run is saved to results/finetune/{run}.json and skipped next time if that file exists,
+so an interrupted sweep can be resumed. Mean/std per k go to results/finetune_curve.json.
 
-Run from the repo root after prepare_data.py and baselines.py:
     python src/finetune.py                      # full sweep
     python src/finetune.py --seeds 0 --ks 1     # subset
     python src/finetune.py --force              # rerun even if results exist
@@ -65,7 +61,8 @@ def predict(model, loader, device):
     return torch.cat(preds).numpy()
 
 
-def train_and_eval(train_df, test_df, n_labels, seed, device):
+def train_model(train_df, n_labels, seed, device):
+    """Fine-tune FINETUNE_MODEL on train_df; returns (model, tokenizer, training stats)."""
     hp = FT_HPARAMS
     set_seed(seed)
     tokenizer = AutoTokenizer.from_pretrained(FINETUNE_MODEL)
@@ -103,12 +100,16 @@ def train_and_eval(train_df, test_df, n_labels, seed, device):
             losses.append(loss.item())
         epoch_losses.append(float(np.mean(losses)))
     train_seconds = time.time() - start
+    stats = {"epochs": epochs, "total_steps": total_steps, "train_seconds": round(train_seconds, 1),
+             "final_train_loss": epoch_losses[-1], "epoch_train_losses": epoch_losses}
+    return model, tokenizer, stats
 
-    test_loader = make_loader(test_df, tokenizer, hp["eval_batch_size"], shuffle=False)
+
+def train_and_eval(train_df, test_df, n_labels, seed, device):
+    model, tokenizer, stats = train_model(train_df, n_labels, seed, device)
+    test_loader = make_loader(test_df, tokenizer, FT_HPARAMS["eval_batch_size"], shuffle=False)
     y_pred = predict(model, test_loader, device)
-    return {"epochs": epochs, "total_steps": total_steps, "train_seconds": round(train_seconds, 1),
-            "final_train_loss": epoch_losses[-1], "epoch_train_losses": epoch_losses,
-            **evaluate(test_df["label"].to_numpy(), y_pred, n_labels)}
+    return {**stats, **evaluate(test_df["label"].to_numpy(), y_pred, n_labels)}
 
 
 def aggregate():
